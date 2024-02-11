@@ -1,3 +1,86 @@
 body {
-    background-color: rgb(5, 5, 62);
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    /* position: absolute; */
+    /* left: 50%;
+    top: 50%;
+    transition: -50% -50%;
+    margin: 0; */
+}
+
+div.main {
+    display: flex;
+    width: 1000px;
+    height: 440px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 8px;
+    /* position: absolute;
+    top: 50;
+    right: 50;
+    transform: translate(50%, 50%); */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+
+}
+
+div.maintext {
+    /* text-align: center; */
+}
+
+div.main>div.maintext>h1 {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 32px;
+    margin-left: 42px;
+    margin-right: 38px;
+}
+
+div.main>div.maintext>h1>span {
+    color: blueviolet;
+}
+
+div.main>div.maintext>p.textopc {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    /* text-align: left; */
+    margin: 32px;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left: 32px;
+    margin-right: 38px;
+    padding: 15px;
+}
+
+div.main>img {
+    width: 100%;
+    /* background-color: violet; */
+
+}
+
+div.abutus {
+    display: flex;
+    /* margin-left: 32px; */
+    margin-top: 32px;
+}
+
+div.abutus>p {
+    color: white;
+    font-size: 24px;
+    margin-left: 48px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 0;
+}
+div.abutus2 {
+    display: flex;
+    /* margin-left: 32px; */
+}
+
+div.abutus2>span {
+    color: white;
+    font-size: 12px;
+    margin-left: 48px;
+    font-family: 'Lexend Deca', sans-serif;
+    opacity: 0.3;
 }
